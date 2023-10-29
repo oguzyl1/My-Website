@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oğuzhan Yıldız</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="body-div">
+    <header>
+        <div class="header-div">
+            <h1>Oğuzhan Yıldız</h1>
+            <nav>
+                <ul class="nav-ul">
+                    <li><a href="#anasayfa">Anasayfa</a></li>
+                    <li><a href="#hakkinda">Hakkımda</a></li>
+                    <li><a href="#yetenekler">Yetenekler</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="anasayfa" class="anasayfa-section">
+        <div class="section-div">
+            <div class="intro">
+                <div class="yazi-div">
+                    <h2 style="font-size: 55px;">Merhaba</h2>
+                    <h2 style="font-size: 55px;">Ben Oğuzhan Yıldız. Siteme Hoşgeldiniz!</h2>
+                </div>
+                <div class="iletisim-div">
+                    <a href="mailto:oguzyildiz.3536@gmail.com" class="iletisim-butonu">İletişim</a>
+                </div>
+                <div class="github-div">
+                    <a href="https://github.com/oguzyl1?tab=repositories" class="github-butonu" target="_blank"><img src="github-mark.png" alt="GitHub" class="github-logo"></a>    
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="hakkinda" class="hakkinda-section">
+        <div class="section-div">
+            <h2 class="div-h2">Hakkımda</h2>
+            <br>
+            <div class="benim-fotograf-div">
+                <img src="benimFoto.png" alt="Your Photo">
+            </div>
+            <p class="div-p">Ben Oğuzhan Yıldız.</p>
+            <p class="div-p">Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.</p>
+        </div>
+    </section>
+    
+    <section id="yetenekler" class="yetenekler-section">
+        <div class="section-div">
+            <h2 class="div-h2">Yetenekler</h2>
+            <br>
+            <br>
+            <div class="skill mx-auto">
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="div-p-progress">Java</p>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="div-p-progress">Python</p>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="div-p-progress">C</p>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="div-p-progress">C#</p>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section id="iletisim" class="iletisim-section">
+        <div class="section-div">
+            <h2 class="div-h2">İletişim</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="adSoyad" class="form-label">Ad Soyad</label>
+                            <input type="text" class="form-control" id="adSoyad" placeholder="Adınız ve Soyadınız">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-Posta Adresi</label>
+                            <input type="email" class="form-control" id="email" placeholder="E-Posta Adresiniz">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mesaj" class="form-label">Mesajınız</label>
+                            <textarea class="form-control" id="mesaj" rows="5" placeholder="Mesajınızı buraya yazın"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary iletisim-butonu">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
